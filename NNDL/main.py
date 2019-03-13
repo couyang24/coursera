@@ -30,3 +30,19 @@ for index in range(len(timeExp1)):
     sumNV += timeExp1[index]*timeExp2[index]
 toc = time.time()
 print("Non-Vectorized Version:" + str(1000*(toc - tic))+'ms')
+
+
+# Broadcasting in Python
+import numpy as np
+
+nutri = np.array([[56, 0, 4.4, 68],
+                 [1.2, 104, 52, 8],
+                 [1.8, 135, 99, .9]])
+
+print(nutri)
+
+cal = nutri.sum(axis=0)
+
+print(cal)
+percentage = 100*nutri/cal.reshape(1,4)
+print(percentage)
