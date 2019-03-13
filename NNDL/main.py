@@ -46,3 +46,25 @@ cal = nutri.sum(axis=0)
 print(cal)
 percentage = 100*nutri/cal.reshape(1,4)
 print(percentage)
+
+
+# A note
+import numpy as np
+a = np.random.randn(5)
+print(a)
+
+# a.reshape(5,1)
+print(a.T.shape)
+
+print(np.dot(a,a.T))
+
+a = np.random.randn(5,1)
+print(a)
+
+a.shape
+
+print(a.T)
+a.T.shape
+
+print(np.dot(a, a.T))
+print(np.dot(a.T, a))
