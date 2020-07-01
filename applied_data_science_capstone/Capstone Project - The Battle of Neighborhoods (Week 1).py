@@ -13,7 +13,7 @@
 #     name: python3
 # ---
 
-# # Food Hunt in downtown Toronto
+# # Food Hunt in downtown Toronto (Part 1)
 
 # ## Introduction/Business Problem 
 
@@ -44,7 +44,7 @@
 
 # Data used in the analysis are listed below:
 #
-# · List of postal codes of Canada: M -- Wikipedia[2].
+# · List of postal codes of Canada: M -- Wikipedia[2.
 #
 # · Using Geopy to get geological location by address name
 #
